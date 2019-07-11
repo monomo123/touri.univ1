@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+a {
+  text-decoration: none;
+}
+header {
+	height: 125px;
+	width: 100%;
+	padding-left:131.5px;
+}
+.title{
+  height:60px;
+  width:160px;
+  background-image:url(images/ヘッダー　東理大学.gif);
+  float:left;
+  margin-top:30px;
+}
+.header-botan-list{
+  height:100px;
+  width:630px;
+  float:right;
+  margin-top:50px;
+}
+body header ul#up{
+  margin-right:90px;
+}
+body header ul#up li.header-botan-up{
+  list-style-type:none;
+  float:right;
+  padding:5px 5px 5px 5px;
+  border-style:solid;
+}
+body header ul#down{
+  margin-right:20px;
+}
+body header ul#down li.header-botan-down{
+  list-style-type:none;
+  float:right;
+  padding:5px 5px 5px 5px;
+  border-style:solid;
+}
+.header-botan-list-up, .header-botan-list-down{
+  height:50px;
+  width:630px;
+}
+.header-botan1{
+  height:50px;
+  width:120px;
+  float:left;
+}
+.header-botan2{
+  height:52px;
+  width:102px;
+  float:left;
+}
+main{
+  width:100%;
+  background-color:rgba(94,4,32,0.9);
+}
+.main-img{
+  height:402.47px;
+  width:1000px;
+  background-image:url(images/メイン　画像.gif);
+  position:absolute;
+  left:131.5px;
+  clear:both;
+  border:2px solid black;
+  border-radius:7px;
+  margin-top:40px;
+}
+.main-botan-list{
+  height:80px;
+  width:600px;
+  position:absolute;
+  bottom:50px;
+  left:200px;
+}
+.main-top{
+  height:402.47px;
+  width:100%;
+}
+.main-botan{
+  height:80px;
+  width:150px;
+  float:right;
+  list-style-type:none;
+  border:solid 2px;
+  color:black;
+  background: rgba(500,500,500,0.5);
+  text-align:center;
+  padding-top:25px;
+  border-radius:5px;
+}
+.clear{
+  clear:both;
+}
+.main-middle{
+  width:100%;
+}
+.news_name{
+  height:100px;
+  width:640px;
+  background-image:url(images/tourinews.gif);
+  margin-left:131.5px;
+  margin-top:50px;
+}
+.main-middle-main{
+  float:left;
+  width:771.5px;
+}
+.main-middle-img1{
+  margin-left:131.5px;
+}
+.main-middle-baner{
+  float:right;
+  width:490px;
+  padding-top:50px;
+}
+.main-middle-img2{
+  padding-left:30px;
+}
+.main-middle-under{
+  margin-left:131.5px;
+  margin-top:50px;
+  padding-bottom:50px;
+}
+.main-middle-img3{
+  float:left;
+  margin-left:15px;
+  border-radius:50%;
+  border:solid black;
+}
+footer{
+  background-color:gray;
+  width:auto;
+}
+.footer-text-box{
+  margin:0 auto 0 auto;
+  width:546px;
+}
+.footer-text-box2{
+  margin:0 auto 0 auto;
+  width:796px;
+}
+.footer-text-box3{
+  text-align:center;
+  color:black;
+}
+.footer-text{
+  float:left;
+  list-style-type:none;
+  color:black;
+  padding-left:10px;
+}
+
+/*sirilyou.html　ここから-------------------------------------------------*/
+main div#sirilyou{
+  margin:0 auto 0 auto;
+  width:600px;
+}
+main div#sirilyou section h1#sirilyou-title{
+  border-left:solid 10px black;
+  padding-left:10px;
+  margin-top:20px;
+}
+main div#sirilyou section form#sirilyou-form{
+  padding-top:20px;
+  padding-bottom:50px;
+}
+.mozi{
+ color:black;
+}
+.field{
+  padding:5px 5px 5px 10px;
+}
+/*access.html----------------------------------------------------------*/
+main section table#campas{
+  table-layout:auto;
+  width:800px;
+  margin:0 auto 30px auto;
+
+}
