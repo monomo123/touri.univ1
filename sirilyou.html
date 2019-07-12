@@ -31,41 +31,43 @@
 	    <main>
 	    	<div id="sirilyou">
 		    	<section>
-		    		<h1 class="mozi" id="sirilyou-title">資料請求</h1>
+		    		<h1 id="sirilyou-title">資料請求</h1>
 		    		<form id="sirilyou-form">
 		    			<fieldset class="field">
-		    				<legend class="mozi">基本情報</legend>
-				    			<label class="mozi" for="name">お名前：</label>
-				    			<input id="name" type="text" name="お名前"><br>
-				    			<label class="mozi" for="huri">フリガナ：</label>
-				    			<input id="huri" type="text" name="フリガナ"><br>
-				    			<label class="mozi" for="yubin">郵便番号：</label>
-				    			<input id="yubin" type="text" name="郵便番号"><br>
-				    			<label class="mozi" for="ken">都道府県：</label>
-				    			<select id="ken" name="都道府県">
+		    				<legend class="mozi-title">基本情報</legend>
+				    			<label class="mozi" for="name">お名前</label>
+				    			<div class="mozi4"><input id="name" type="text" name="お名前"><div class="clear"></div></div><br>
+				    			<label class="mozi" for="huri">フリガナ</label>
+				    			<div class="mozi4"><input id="huri" type="text" name="フリガナ"><div class="clear"></div></div><br>
+				    			<label class="mozi" for="yubin">郵便番号</label>
+				    			<div class="mozi4"><input id="yubin" type="text" name="郵便番号"><div class="clear"></div></div><br>
+				    			<label class="mozi" for="ken">都道府県</label>
+				    			<div class="mozi4"><select id="ken" name="都道府県">
 				    				<option class="mozi" type="selected">都道府県を選んでください。</option>
 					    				<option>北海道</option><option>青森県</option><option>岩手県</option><option>宮城県</option><option>秋田県</option><option>山形県</option><option>福島県</option><option>茨城県</option><option>栃木県</option><option>群馬県</option><option>埼玉県</option><option>千葉県</option><option>東京都</option><option>神奈川県</option><option>新潟県</option><option>富山県</option><option>石川県</option><option>福井県</option><option>山梨県</option><option>長野県</option><option>岐阜県</option><option>静岡県</option><option>愛知県</option><option>三重県</option><option>滋賀県</option><option>京都府</option><option>大阪府</option><option>兵庫県</option><option>奈良県</option><option>和歌山県</option><option>鳥取県</option><option>島根県</option><option>岡山県</option><option>広島県</option><option>山口県</option><option>徳島県</option><option>香川県</option><option>愛媛県</option><option>高知県</option><option>福岡県</option><option>佐賀県</option><option>長崎県</option><option>熊本県</option><option>大分県</option><option>宮崎県</option><option>鹿児島県</option><option>沖縄県</option>
-				    			</select><br>
-				    			<label class="mozi" for="timei">地名・番地：</label>
-				    			<input id="timei" type="text" name="地名・番地"><br>
-				                <label class="mozi" for="denwa">お電話番号：</label>
-				    			<input id="denwa" name="お電話番号"><br>
-				    			<label class="mozi" for="mail">メールアドレス：</label>
-				    			<input id="mail" type="text" name="メールアドレス"><br>
-			    			<label class="mozi">区分：</label>
-				    			<input id="student" type="radio" name="区分" value="受験生">
-				    			<label class="mozi" for="student">受験生</label>
-				    			<input id="people" type="radio" name="区分" value="保護者">
-				    			<label class="mozi" for="people">保護者</label><br>
-				    		<label class="mozi">男女：</label>
-				    			<input id="male" type="radio" name="男女" value="男">
-				    			<label class="mozi" for="male">男性</label>
-				    			<input id="female" type="radio" name="男女" value="女">
-				    			<label class="mozi" for="female">女性</label>
-			    		</fieldset>
-			    		<fieldset class="field">
+				    			</select></div><br>
+				    			<label class="mozi" for="timei">地名・番地</label>
+				    			<div class="mozi4"><input id="timei" type="text" name="地名・番地"></div><br>
+				                <label class="mozi" for="denwa">お電話番号</label>
+				    			<div class="mozi4"><input id="denwa" name="お電話番号"></div><br>
+				    			<label class="mozi" for="mail">メールアドレス</label>
+				    			<div class="mozi4"><input id="mail" type="text" name="メールアドレス"></div><br>
+			    			<label class="mozi2">区分</label>
+			    				<div class="select">
+					    			<input id="student" type="radio" name="区分" value="受験生">
+					    			<label class="mozi1" for="student">受験生</label>
+					    			<input id="people" type="radio" name="区分" value="保護者">
+					    			<label class="mozi1" for="people">保護者</label><br>
+					    		</div>
+				    		<label class="mozi2">男女</label>
+				    			<div class="select">
+					    			<input id="male" type="radio" name="男女" value="男">
+					    			<label class="mozi1" for="male">男性</label>
+					    			<input id="female" type="radio" name="男女" value="女">
+					    			<label class="mozi1" for="female">女性</label>
+					    		</div>
 			    			<label class="mozi" for="category">学部</label>
-			    			<select id="category" name="学科">
+			    			<div class="mozi4"><select id="category" name="学科">
 			    				<option class="mozi" type="selected">学科を選んでください。</option>
 			    					<optgroup label="文学部">
 			    						<option>文学科</option>
@@ -94,11 +96,11 @@
 					    			<optgroup label="医学部">
 					    				<option>医学科</option>
 					    			</optgroup>
-			    			</select><br><br>
-			    			<label class="mozi" for="other">その他：</label>
-			    			<textarea class="mozi" id="other" name="その他" placeholder="ご自由にお書きください。"></textarea><br><br>
+			    			</select></div>
+			    		</fieldset>
+			    		<fieldset class="field"><br><br>
 			    			<input id="yes" type="checkbox" value="メール配信を希望する。">
-			    			<label class="mozi" for="yes">メール配信を希望する。</label>
+			    			<label class="mozi1" for="yes">メール配信を希望する。</label>
 			    		</fieldset>
 
 		    			<input type="submit" value="送信">
