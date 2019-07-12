@@ -160,27 +160,53 @@ footer{
 /*sirilyou.html　ここから-------------------------------------------------*/
 main div#sirilyou{
   margin:0 auto 0 auto;
-  width:600px;
+  width:615px;
 }
 main div#sirilyou section h1#sirilyou-title{
   border-left:solid 10px black;
   padding-left:10px;
   margin-top:20px;
+  color:black;
 }
 main div#sirilyou section form#sirilyou-form{
   padding-top:20px;
   padding-bottom:50px;
 }
-.mozi{
+.mozi,.mozi-title,.mozi1,.mozi2{
  color:black;
+}
+.mozi,.mozi2{
+  border:solid;
+  text-align:center;
+  width:200px;
+  height:50px;
+  display:inline-block;
+  padding-top:10px;
+  float:left;
 }
 .field{
   padding:5px 5px 5px 10px;
+  border:none;
+}
+.select{
+  border:solid black;
+  width:400px;
+  height:50px;
+  float:left;
+  text-align:center;
+  padding-top:10px;
+}
+.mozi4{
+  border:solid black;
+  width:400px;
+  height:50px;
+  float:right;
+  text-align:center;
+  padding-top:10px;
 }
 /*access.html----------------------------------------------------------*/
 main section table#campas{
   table-layout:auto;
   width:800px;
   margin:0 auto 30px auto;
-
 }
